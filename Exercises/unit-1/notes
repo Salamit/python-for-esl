@@ -1,0 +1,385 @@
+Introductions: Learn student's names
+
+
+If in Japan
+10% of Japanese can speak English well.
+90% of Japanese cannot speak English well. 
+138 out of 141 countries
+lowest ranked in Asia
+
+Why learn English?
+Travel
+Job
+Get more knowledge: documentation - English First. 
+Domestic demand for English speakers is increasing. Rakuten
+
+Who likes English? Who doesn't like English?
+
+It is not your fault
+
+We will make learning English fun. I will make learning Python in English fun. 
+Communicative activities. 
+Icebreakers
+
+
+
+You could use Scratch or Python
+Use Python for those in the developer stream
+Use Scratch for those in the non developer stream
+
+
+Day 2
+
+Learning points
+
+Print
+
+and 
+
+Comments
+
+what's up
+who likes Java? Who like's python?
+Go over the voabulary pth
+open up their intepreter
+introduce print
+introduce comment
+
+Day 3
+review: Print
+Learning points
+statement
+integer
+floating points
+modulo
+
+Exercises
+Start your command prompt. Get a paper and pen ready
+Type print("hello"). Python executes this, which has the effect of printing the letters h-e-l-l-o. Notice that the quotation marks that you used to enclose the string are not part of the output.
+Type "hello" and Tell me the result.  Make notes of when you see the quotation marks and when you don’t.
+Type cheese without the quotation marks. Tell me the error 
+Type the statement 6 + 4 * 9 at the Python prompt and hit enter. Is this a floating point number or integer?
+
+
+
+Day 4
+Learning points
+Review
+concatenate
+Installing Visual Studio Code
+
+Type a statement that prints all integer numbers between 1 and 10
+Type a statement that prints all the odd numbers between 1 and 10 
+Type a statement that prints the floating point number 1.2
+Find the modulo of 5 and 3. Can you tell me the result?
+Find the modulo of 4 and 2. What shows up on the screen?
+Find the modulo of 10 and 3. Please tell me the result
+Find the addition of 2 and 3. Can you tell me what you see?
+
+
+Day 5
+Review 
+integer
+string
+value
+classified 
+class 
+datatypes 
+manipulate
+angle 
+
+Type "Hello" + "Salami Sausage"
+Concatentate the following: "What" "is" "your" "problem?"
+
+Terms 
+value 
+A value is one of the fundamental things — like a letter or a number — that a program manipulates
+
+These values are classified into different classes, or datatypes: 
+4 is an integer, and "Hello, World!" is a string
+
+If you are not sure what class a value falls into, 
+Python has a function called type which can tell you.
+
+angle bracket. 
+
+Type the following in your python intepreter and tell me what you see: type("Hello, World!")
+
+Type the following in your python intepreter and tell me what you see: type(17)
+
+Type the following in your python intepreter and tell me what you see: type(3.2)
+
+Type the following in your python intepreter and tell me what you see: type("17")
+
+Type the following in your python intepreter and tell me what you see: type("3.2")
+
+On the board
+Strings in Python can be enclosed in either single quotes (') or double quotes ("), 
+or three of each (''' or """)
+
+Convert their code to python scripts
+
+
+Day 6
+
+Warm up
+Speaking on the phone - following up on the bug
+vocabulary - App, Component, Computer, Data, Database
+Python exercises 
+
+
+Day 7
+Test Questions(Doesn't include Steve's Questions)
+
+Name two types of errors
+What is the result when you type print("Hello World")
+How do you concatenate the following words: "What" "is" "your" "problem" "?"
+Is this a string or an integer "17"
+Is this a string or an integer 17
+What datatype is this: 17.2
+What is the result of 5 modulo 3?
+
+Day 8: Values and data types: Goal: Reviewing the test and using type() in python
+Review the test 
+Board data types/classes: 
+integer 
+string 
+
+float 
+single quotes ('), double quotes (") 
+triple quoted strings. ''' 
+triple double quotation """
+= assignment token
+
+
+Exercises
+If you are not sure what class a value falls into, Python has a function called type which can tell you.
+
+They will do these running dictation style
+print("Bruce's beard")
+print('The knights who say "Ni!"'.)
+print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
+
+Demonstrate the task with steve.
+
+Day 9 Goal: Students will understand how to use the type function 
+and assignment token 
+
+
+Write and raise the flag. 
+Review single quote, double quotes, triple single quote, triple double quotation 
+
+Strings 
+
+Strings in Python can be enclosed in either single quotes (') or double quotes ("), or three of each (''' or """)
+
+Day 10: Students will understand the concepts of variable, assignment token, assignment statement, value
+Variables, Assignment token 
+
+
+Review: the different types of strings in Python.  
+    What data type is this?
+    They read statements to their partners. Their partners write the sentences and then board the datatype
+    'A day without sunshine is like, night.'
+    "Money talks... but all mine ever says is goodbye!"
+    '''If at first you don't succeed, skydiving definitely isn't for you. '''
+    """ If you want to be criticized, marry. """  
+
+(At the back of the class. They then board. )
+
+
+message = "What is your problem?" (Label this with message, assignment token, assignment statement, value)
+
+'message' is the variable
+A 'variable' is a name that refers to a value. 
+
+= "What is your problem?" is the assignment statement
+
+"What is your problem?" is the value. 
+
+The assignment statement gives a value to a variable
+
+This statement assigns the string value "What's is your problem?" to a variable named message.
+
+
+
+
+Day 11
+
+Review: assignment token
+
+Goal: Students will be able to give instructions to assign values to variables. 
+
+Dictate to their teammates the following:
+
+Create a variable called message. Assign "What is your problem?" to message
+They solve this in groups. 
+
+Then they type in their python interpreter 
+
+
+Board: message = "What's your problem?". They label and board statements labeling the different parts of the 
+statement. e.g. The variable name is message. The assignment statement is ..., The value given to the variable is... 
+
+
+(Exercise: Labeling the assigment statement, the assignment token, and the value, the difference between)
+
+fruit = "My favorite fruit is tomato"
+
+Create a variable called fruit. Assign "My favorite fruit is tomato" to fruit 
+
+
+
+Send one person from a team out of the class. 
+
+Board: n = 17 for the remaining teammates to see. Erase it. The teammates who saw the boarded statement have to give 
+give the correct instructions to their classmate. 
+
+
+
+What is the variable name? The variable name is ....
+What is the assignment statement? The assignment statement is ...
+What is the value given to the variable? The value given to the variable is... 
+
+(Dictation to each other)
+START HERE WITH CLASS 1. A teammate steps out, and comes back in. They read the instructions to their teammate
+
+pi = 3.14159
+What is the variable name? 
+What is the assignment statement?
+What is the value given to the variable?
+
+
+Dictation
+
+1. In your python interpreter, type the following: message = "What is your problem?"
+2. display the value saved in message
+
+
+n = 17
+pi = 3.14159
+
+
+Create a variable called name. Assign your name to variable. 
+
+
+Get notes ready for steve
+
+We use variables in a program to “remember” things, perhaps the current score at the football game. 
+But variables are variable. This means they can change over time, just like the scoreboard at a football game. 
+You can assign a value to a variable, and later assign a different value to the same variable. 
+
+>>> message = "What's up, Doc?"
+>>> message 
+'What's up, Doc?' 
+>>> n
+17
+>>> pi
+3.14159
+
+Show them a picture of 
+In your python intepreter, type day = "Thursday"
+
+DAY 12
+
+Correct mistake of assignment statement 
+
+Review: 
+
+Students go outside: come back in and their partners give them the instructions
+1a. Create a variable called vacation = "Vacation is over. Cry, Cry, Cry!" 
+
+1b. The partners that come in will read the instructions to their partners 
+    What is the name of the variable? 
+
+    What is the assignment token?
+
+    What is the assignment statment? 
+
+    What is the value that is assigned?
+
+Switch
+
+2a. Create a variable called honey = """I miss my honey Cry, Cry, Cry!"""
+
+2b. The partners that come in will read the instructions to their partners 
+    What is the name of the variable? 
+
+    What is the assignment token?
+
+    What is the assignment statment? 
+
+    What is the value that is assigned?
+
+3. Raise the flag 
+    single quote 
+    double quote 
+    triple single quote  
+    triple double quotes
+
+4. There are four ways to create strings in python. Change this statement to a string
+using the four ways: I eat Salami
+
+5. Given the following: 100, what is the python command to find the datatype of 100?
+
+6. What would be the result of type(“100.85”) in the python interpreter? 
+
+7. What would be the result of type(182.85) in the python interpreter?	
+
+Project: Create a program identify the various parts using Comments
+
+2nd TERM
+
+Divide classroom into teams. Divide the board into the same number of sections as the number of teams you have
+Put the vocabulary for the first word:  Ask students to get the rest.
+They board the rest of the vocabulary using relay style.
+It is a race.  
+
+Extension:
+Hot seat with the vocabulary words
+Introduce the words in English
+
+Q: Hi, Steve
+A: 
+
+Q: How was your vacation?
+A: 
+
+Q: What did you do?
+A: I slept all day
+
+Day 2:
+Day 1: Semester Icebreaker and Review
+Write an integer number.
+Write a floating point number 
+What is the modulo sign?
+Type a statement that prints all integer numbers between 1 and 10
+Type a statement that prints the floating point number 1.2
+Type a statement that finds 5 modulo 3
+What is the concatenation sign?
+What is name of this: '
+What is the name of this: "
+What is the name of this: " "
+What is the name of this: '
+Concatentate the following: "I" "love" "you"
+What datatype is this value: 3
+What datatype is this value: "Hello Steve!"
+Use the type function to find out what datatype this is: "Hello, World!"
+Create a variable called message. Assign 'A day without sunshine is like, night.' to message
+What is the assignment statement? What is the assignment token? What is the value
+
+Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
+
+We use variables in a program to “remember” things, perhaps the current score at the football game. But variables are variable. 
+This means they can change over time, just like the scoreboard at a football game. You can assign a value to a variable, 
+and later assign a different value to the same variable. (This is different from maths. In maths, if you give ‘x‘ the value 3, 
+it cannot change to link to a different value half-way through your calculations!)
+
+You’ll notice we changed the value of day three times, and on the third assignment we even made 
+it refer to a value that was of a different type.
+A great deal of programming is about having the computer remember things, e.g. 
+The number of missed calls on your phone, and then arranging to update or change the variable when you miss another call.
+
+Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documentation, Release 3rd Edition
+
+How to practice reading documentation. 
