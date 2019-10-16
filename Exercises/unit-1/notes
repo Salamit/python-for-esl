@@ -350,33 +350,63 @@ A: I slept all day
 
 Day 2:
 Day 1: Semester Icebreaker and Review
-Write an integer number.
+
+Their partners read and then the other partner boards 
+example: Write an integer number.
+
+ 
 Write a floating point number 
 What is the modulo sign?
 Type a statement that prints all integer numbers between 1 and 10
+
 Type a statement that prints the floating point number 1.2
 Type a statement that finds 5 modulo 3
 What is the concatenation sign?
+
+Say to their partner 
+'
+''
+"
+
+" "
+''' '''
+""" """
+
 What is name of this: '
-What is the name of this: "
+What is the name of this: 
 What is the name of this: " "
-What is the name of this: '
+What is the name of this: ''' '''
+
+On their computers 
+
 Concatentate the following: "I" "love" "you"
-What datatype is this value: 3
+Using the type function, find out what datatype is this value: 3
 What datatype is this value: "Hello Steve!"
+
 Use the type function to find out what datatype this is: "Hello, World!"
+
+example
+
 Create a variable called message. Assign 'A day without sunshine is like, night.' to message
-What is the assignment statement? What is the assignment token? What is the value
+What is the assignment statement? What is the assignment token? What is the value?
+
+Exercises to lead to reading:
+In your python interpreter, create a variable called day. Assign "Thursday" to day then print day to the screen
+
+Change the value of the variable day to "Friday" then print the new value to the screen 
+
+Change theh value of day to 21 thhen print the new value to the screen. 
 
 Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
+
+Introduce the reading. 
 
 We use variables in a program to “remember” things, perhaps the current score at the football game. But variables are variable. 
 This means they can change over time, just like the scoreboard at a football game. You can assign a value to a variable, 
 and later assign a different value to the same variable. (This is different from maths. In maths, if you give ‘x‘ the value 3, 
 it cannot change to link to a different value half-way through your calculations!)
 
-You’ll notice we changed the value of day three times, and on the third assignment we even made 
-it refer to a value that was of a different type.
+You’ll notice we changed the value of day three times, and on the third assignment we even made it refer to a value that was of a different type.
 A great deal of programming is about having the computer remember things, e.g. 
 The number of missed calls on your phone, and then arranging to update or change the variable when you miss another call.
 
