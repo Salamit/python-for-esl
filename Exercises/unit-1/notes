@@ -33,6 +33,7 @@ Day 2
 Learning points
 
 Print
+demonstrate: print("Hello world!") 
 
 and 
 
@@ -41,11 +42,45 @@ Comments
 what's up
 who likes Java? Who like's python?
 Go over the voabulary pth
+
+The single most important skill for a computer scientist is problem solving. 
+Problem solving means the ability to formulate problems, think creatively about solutions, 
+and express a solution clearly and accurately.
+
+The programming language you will be learning is Python. 
+Python is an example of a high-level language; other high-level languages you might have heard of are 
+C++, PHP, Pascal, C#, and Java.
+
+The engine that translates and runs Python is called the Python Interpreter. 
+here are two ways to use it: immediate mode and script mode. 
+In immediate mode, you type Python expressions into the Python Interpreter window, 
+and the interpreter immediately shows the result:
+
+Let's open our python interpreter.
+
+The >>> is called the Python prompt.
+
+Alternatively, you can write a program in a file and use the interpreter to execute the contents of the file. 
+Such a file is called a script. Scripts have the advantage that they can be saved to disk, printed, and so on.
+Do you have Visual Code Studio
+
+
 open up their intepreter
+
 introduce print
-introduce comment
+
+print()
+We use the print function to display. It displays a value on the screen. In this case, the result shown is
+
+print("What's up")
+print("")
+
+introduce comment and #
+A comment in a computer program is text that is intended only for the human reader — it is completely ignored by the interpreter.
+
 
 Day 3
+
 review: Print
 Learning points
 statement
@@ -355,9 +390,10 @@ Their partners read and then the other partner boards
 example: Write an integer number.
 
  
+
 Write a floating point number 
-What is the modulo sign?
-Type a statement that prints all integer numbers between 1 and 10
+Write the modulo sign?
+Using the print command, write a statement that prints all numbers between 1 and 10
 
 Type a statement that prints the floating point number 1.2
 Type a statement that finds 5 modulo 3
@@ -383,7 +419,9 @@ Concatentate the following: "I" "love" "you"
 Using the type function, find out what datatype is this value: 3
 What datatype is this value: "Hello Steve!"
 
-Use the type function to find out what datatype this is: "Hello, World!"
+Use the 
+
+type function to find out what datatype this is: "Hello, World!"
 
 example
 
@@ -391,11 +429,13 @@ Create a variable called message. Assign 'A day without sunshine is like, night.
 What is the assignment statement? What is the assignment token? What is the value?
 
 Exercises to lead to reading:
+
+
 In your python interpreter, create a variable called day. Assign "Thursday" to day then print day to the screen
 
 Change the value of the variable day to "Friday" then print the new value to the screen 
 
-Change theh value of day to 21 thhen print the new value to the screen. 
+Change the value of day to 21 thhen print the new value to the screen. 
 
 Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
 
@@ -412,4 +452,23 @@ The number of missed calls on your phone, and then arranging to update or change
 
 Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documentation, Release 3rd Edition
 
-How to practice reading documentation. 
+Day 3: Variable names and keywords
+
+Vocabulary
+arbitrarily
+digits
+underscore
+uppercase
+convention
+multiple
+situations
+illegal
+character
+syntax
+structure
+meaningful
+document (v) e.g. to document something 
+
+
+How to practice reading documentation.
+
