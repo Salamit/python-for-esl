@@ -52,8 +52,11 @@ Python is an example of a high-level language; other high-level languages you mi
 C++, PHP, Pascal, C#, and Java.
 
 The engine that translates and runs Python is called the Python Interpreter. 
+
 here are two ways to use it: immediate mode and script mode. 
-In immediate mode, you type Python expressions into the Python Interpreter window, 
+
+In immediate mode, 
+you type Python expressions into the Python Interpreter window, 
 and the interpreter immediately shows the result:
 
 Let's open our python interpreter.
@@ -399,6 +402,12 @@ Type a statement that prints the floating point number 1.2
 Type a statement that finds 5 modulo 3
 What is the concatenation sign?
 
+Day 3: Variable names and keywords
+
+Divide students into a teams. Have students create team names and put their team names on the board. Then students numbers 
+on the board for answer spots. They will give instructions to their partners. For each each problem they answer correctly, 
+they get and put a point on the board at the number they got correct. 
+
 Say to their partner 
 '
 ''
@@ -409,24 +418,19 @@ Say to their partner
 """ """
 
 What is name of this: '
-What is the name of this: 
+What is the name of this: ' '
 What is the name of this: " "
 What is the name of this: ''' '''
 
 On their computers 
 
+
 Concatentate the following: "I" "love" "you"
 Using the type function, find out what datatype is this value: 3
 What datatype is this value: "Hello Steve!"
 
-Use the 
-
-type function to find out what datatype this is: "Hello, World!"
-
-example
-
 Create a variable called message. Assign 'A day without sunshine is like, night.' to message
-What is the assignment statement? What is the assignment token? What is the value?
+What is the assignment statement? What is the assignment token? What is the value is the value that is assigned?
 
 Exercises to lead to reading:
 
@@ -435,7 +439,23 @@ In your python interpreter, create a variable called day. Assign "Thursday" to d
 
 Change the value of the variable day to "Friday" then print the new value to the screen 
 
-Change the value of day to 21 thhen print the new value to the screen. 
+Change the value of day to 21 then print the new value to the screen. 
+
+Day 4
+Vocabulary
+arbitrarily
+digits
+underscore
+uppercase
+convention
+multiple
+situations
+illegal
+character
+syntax
+structure
+meaningful
+document (v) e.g. to document something 
 
 Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
 
@@ -452,23 +472,88 @@ The number of missed calls on your phone, and then arranging to update or change
 
 Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documentation, Release 3rd Edition
 
-Day 3: Variable names and keywords
 
-Vocabulary
-arbitrarily
-digits
-underscore
-uppercase
-convention
-multiple
-situations
-illegal
-character
-syntax
-structure
-meaningful
-document (v) e.g. to document something 
+Running dicatation
+Variable names can be arbitrarily long. 
+They can contain both letters and digits, but they have to begin with a letter or an underscore. 
+Although it is legal to use uppercase letters, by convention we don’t. If you do, remember that case matters. 
+Bruce and bruce are different variables.
 
+Review meaning of the above once race is over
+
+Find the treasure. They execute the code and board the results in a race format
+Create a variable called: 76trombones. Assign "big parade" to 76trombones. Tell me what you see. 
+Create a variable called: more$. Assign 1000000 to more$. Tell me what you see.
+Create a variable called: class. Assign "Computer Science 101" to class. Tell me what you see.
+
+Introduce the keywords
+class is one of the Python keywords.
+
+They board in a race format the following keywords
+and as assert break class continue
+def del elif else except exec
+finally for from global if import
+in is lambda nonlocal not or
+pass raise return try while with
+yield True False None
+
+Communication gap and execute then board
+Type the following in your python interpreter: x = len("hello"). 
+Then put the value of x on the board. Can you write a sentence in English to describe in what len does?
+
+* = multiplication token
+** = exponentiation token
+
+Create a variable called minutes. Assign the value 645 to minutes. 
+Divide minutes by 60 and assign the result to a new variable called hours. 
+Print hours to the screen. 
+
+
+Type converter functions. 
+In Python, we can convert from one data type to another. For example, we can convert
+from a float to an int. 
+
+The int function can take a floating point number or a string, and turn it into an int.
+In your python interpreter type the following: 
+int(3.14)
+int(3.9999)
+int(3.0)
+int(-3.999)
+int("2345") 
+int("23 bottles")
+
+We are converting from what type to what type in this expression?
+float(17)
+
+float("123.45")
+
+str(17)
+
+str(123.45)
+
+Order of operations
+What is the answer of this: (1+1)**(5-2) #8
+and this 
+2 * (3-1) #4
+
+Parentheses have the highest precedence
+
+2**1+1 
+3*1**3 
+Exponentiation has the next highest precedence
+
+Multiplication and both Division operators have the same precedence, which is higher than Addition and
+Subtraction
+ 2*3-1
+ 5-2*2 
+ 
+ Operators with the same precedence are evaluated from left-to-right
+ 6-3+2, 
+ 
+ Operations on strings
+ In general, you cannot perform mathematical operations on strings, even if the strings look like numbers.
+ Create a variable called message
+ message - 1 
 
 How to practice reading documentation.
 
