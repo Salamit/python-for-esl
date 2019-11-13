@@ -71,17 +71,31 @@ Do you have Visual Code Studio
 open up their intepreter
 
 introduce print
+Review: Python Prompt
+Print hello world  
+
 
 print()
 We use the print function to display. It displays a value on the screen. In this case, the result shown is
 
+Words:
+NameError: - a type of run-time error
+* Multiplication
+** exponentiation operator
+#
+
+Review
 print("What's up")
-print("")
+print("I like banana.")
 
-introduce comment and #
+Introduce comment and # - Dictation. 
+1. print("I like banana.") #So do I 
+2. print("Hello, World!") # Isn't this easy!
+
+Creating a python script. 
+Give the text to read about comments for them to read. 
 A comment in a computer program is text that is intended only for the human reader — it is completely ignored by the interpreter.
-
-
+Also give the text about debugging and experiemental debugging to read. 
 Day 3
 
 review: Print
@@ -109,9 +123,9 @@ Installing Visual Studio Code
 Type a statement that prints all integer numbers between 1 and 10
 Type a statement that prints all the odd numbers between 1 and 10 
 Type a statement that prints the floating point number 1.2
-Find the modulo of 5 and 3. Can you tell me the result?
-Find the modulo of 4 and 2. What shows up on the screen?
-Find the modulo of 10 and 3. Please tell me the result
+Find 5 modulo 3. Can you tell me the result?
+Find 4 modulo 2. What shows up on the screen?
+Find 10 modulo 3. Please tell me the result
 Find the addition of 2 and 3. Can you tell me what you see?
 
 
@@ -429,6 +443,12 @@ Concatentate the following: "I" "love" "you"
 Using the type function, find out what datatype is this value: 3
 What datatype is this value: "Hello Steve!"
 
+Use the 
+
+type function to find out what datatype this is: "Hello, World!"
+
+example
+
 Create a variable called message. Assign 'A day without sunshine is like, night.' to message
 What is the assignment statement? What is the assignment token? What is the value is the value that is assigned?
 
@@ -440,6 +460,23 @@ In your python interpreter, create a variable called day. Assign "Thursday" to d
 Change the value of the variable day to "Friday" then print the new value to the screen 
 
 Change the value of day to 21 then print the new value to the screen. 
+
+Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
+
+Introduce the reading. 
+
+We use variables in a program to “remember” things, perhaps the current score at the football game. But variables are variable. 
+This means they can change over time, just like the scoreboard at a football game. You can assign a value to a variable, 
+and later assign a different value to the same variable. (This is different from maths. In maths, if you give ‘x‘ the value 3, 
+it cannot change to link to a different value half-way through your calculations!)
+
+You’ll notice we changed the value of day three times, and on the third assignment we even made it refer to a value that was of a different type.
+A great deal of programming is about having the computer remember things, e.g. 
+The number of missed calls on your phone, and then arranging to update or change the variable when you miss another call.
+
+Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documentation, Release 3rd Edition
+
+Day 3: Variable names and keywords
 
 Day 4
 Vocabulary
@@ -457,6 +494,25 @@ structure
 meaningful
 document (v) e.g. to document something 
 
+Warmup 
+
+evaluate = show
+
+Create a variable called message. In message save the value: "What's up,  Doc?" Ask the interpreter to evaluate
+the variable. What is the result?
+
+Create a variable called n. In n save the value: 17. Ask the interpreter to evaluate
+the variable. What is the result?
+
+Create a variable called pi. In pi save the value: 3.14159. Ask the interpreter to evaluate
+the variable. What is the result?
+
+In your python interpreter, create a variable called day. Assign "Thursday" to day then print day to the screen
+
+Change the value of the variable day to "Friday" then print the new value to the screen 
+
+Change the value of day to 21 thhen print the new value to the screen. 
+
 Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
 
 Introduce the reading. 
@@ -472,35 +528,80 @@ The number of missed calls on your phone, and then arranging to update or change
 
 Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documentation, Release 3rd Edition
 
+Show the reading. Go through it with class. Ask students to underline words they don't understand. 
+Rules for making variable names
 
-Running dicatation
-Variable names can be arbitrarily long. 
-They can contain both letters and digits, but they have to begin with a letter or an underscore. 
-Although it is legal to use uppercase letters, by convention we don’t. If you do, remember that case matters. 
-Bruce and bruce are different variables.
+Variable names and keywords
+introduce: 
+underscore
+letter
+digit
+uppercase
+lowercase 
 
-Review meaning of the above once race is over
+Create a variable called what_time_did_you_sleep_last_night. Save "3AM". Show the result. 
 
-Find the treasure. They execute the code and board the results in a race format
-Create a variable called: 76trombones. Assign "big parade" to 76trombones. Tell me what you see. 
-Create a variable called: more$. Assign 1000000 to more$. Tell me what you see.
-Create a variable called: class. Assign "Computer Science 101" to class. Tell me what you see.
+Create a variable called Teacher, assign "Handsome Steve" to teacher. 
 
-Introduce the keywords
-class is one of the Python keywords.
+Create a variable called teacher. Save
+"Ugly Salami" to teacher. Ask the interpreter to evaluate the variables. What are the results?
 
-They board in a race format the following keywords
-and as assert break class continue
-def del elif else except exec
-finally for from global if import
-in is lambda nonlocal not or
-pass raise return try while with
-yield True False None
+Start here with class 1 Nov 13th 
+Create a variable called my_name. Save your name to my_name. 
 
-Communication gap and execute then board
-Type the following in your python interpreter: x = len("hello"). 
-Then put the value of x on the board. Can you write a sentence in English to describe in what len does?
+Create a variable called price_of_tea_in_china. Save "20 Yen" to price_of_tea_in_china.
 
+Type the following. Tell me what you see.  
+76trombones = "big parade"
+class = "Computer Science 101"
+
+
+Switch
+more$ = 1000000
+finally = "I can sleep"
+
+
+
+meaningful.
+Create a variable called car, save "banana" to car.
+Create a variable called fruit, save "banana" to fruit. 
+Which is more more meaningful?
+
+2.4 Statements
+
+Steve will go through the following with the Students. 
+Dictation and board 
+A statement is an instruction that the Python interpreter can execute. 
+We have only seen the assignment statement so far. 
+Some other kinds of statements that we’ll see shortly are while statements, for statements, if statements, and import statements. 
+(There are other kinds too!)
+When you type a statement on the command line, Python executes it. Statements don’t produce any result.
+
+2.5 Evaluating expressions
+Type the following in your interpreter: 
+>>> 1 + 1
+2
+>>> len("hello")
+5 
+In this example len is a built-in Python function that returns the number of characters in a string.
+
+An expression is a combination of values, variables, operators, and calls to functions. 
+If you type an expression at the Python prompt, the interpreter evaluates it and displays the result.
+
+Type the following in your interpreter:
+>>> 17
+#17
+>>> y = 3.14
+>>> x = len("hello") 
+>>> x
+ 5
+>>> y 
+3.14
+
+
+
+
+R
 * = multiplication token
 ** = exponentiation token
 
