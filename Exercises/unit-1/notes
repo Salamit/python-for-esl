@@ -61,6 +61,7 @@ and the interpreter immediately shows the result:
 
 Let's open our python interpreter.
 
+
 The >>> is called the Python prompt.
 
 Alternatively, you can write a program in a file and use the interpreter to execute the contents of the file. 
@@ -127,6 +128,37 @@ Find 5 modulo 3. Can you tell me the result?
 Find 4 modulo 2. What shows up on the screen?
 Find 10 modulo 3. Please tell me the result
 Find the addition of 2 and 3. Can you tell me what you see?
+
+Test questions
+1. The engine that translates and runs Python is called what?
+2. What is this: >>>
+3. At the python prompt print the name of your school
+4. Print your name and add your last name as a comment. 
+5. What are three types of errors?
+6. What type of error do you get if you type school in your python interpreter without the quotation?
+7. What is the modulo sign?
+8. How do you find 8 modulo 5 in your python interpreter?
+9. What is the result of 8 modulo 5?
+10. What is the result of 9 modulo 3?
+11. What is the error you get if you type 5    20 in your python interpreter?
+12. How do you find the addition of 2 and 3 in your python interpreter?
+13. Write am integer
+14. Is 9 an odd or even number?
+15. Is 4 an odd or even number?
+16. Write a floating point number
+17. Type a statement that prints Four point six as a floating point number 
+18. Type a statement that prints Four point six as a string
+19. Whhat types are these:
+    a. "50.2"
+    b. 50.2
+20. What types are these:  
+    a. 12
+    b. "12"
+
+7b. What is the result of 8 modulo 5?
+8. How do you find the addition of 2 and 3 in your python interpreter?
+9. Write an integer number: 
+10. Write a floating point number: 
 
 
 Day 5
@@ -511,7 +543,7 @@ In your python interpreter, create a variable called day. Assign "Thursday" to d
 
 Change the value of the variable day to "Friday" then print the new value to the screen 
 
-Change the value of day to 21 thhen print the new value to the screen. 
+Change the value of day to 21 then print the new value to the screen. 
 
 Improving: Reading Exercises, Writing, Listening, Speaking Exercises. 
 
@@ -567,6 +599,158 @@ Create a variable called car, save "banana" to car.
 Create a variable called fruit, save "banana" to fruit. 
 Which is more more meaningful?
 
+How to practice reading documentation.
+
+Test Questions
+
+1. Create a variable called 'teacher', assign your "Salami" to 'teacher'. Then assign the 
+value 'Mogi' to teacher. 
+
+2. What is the value of teacher?
+
+
+For questions 2 and 3. 
+
+>>> month = "October"
+>>> month = "November"
+>>> month = "December"
+
+2. What is the value of month?
+
+3. How many times have we change the value assigned to month?
+
+For questions 4 and 5
+
+>>> day = "Thursday"
+>>> Day = "Friday"
+
+4. What is the value of Day?
+
+
+5. What is the value of day?
+
+
+6. Which of these is illegal for a variable name?
+
+ a. 1year = "2019"
+ b. year1 = "2019"
+
+7. Is this a legal variable name? 
+
+  iLove¥ = true
+
+8. Which of these is more meaningful as a variable name?
+   a. school = "Tokyo Electronic College" 
+   b. love = "Tokyo Electronic College"?
+
+9. Create a variable called country. Assign the value of the name of your country to country. 
+The value of country should be in lowercase.
+
+10. Create a variable called my_name. Assign the value of your name to name. Your name 
+should be in uppercase. 
+
+
+Answers
+
+1. 
+teacher = 'Salami' or teacher = "Salami"
+teacher = 'Mogi' or "Mogi"
+
+2. 'Decemeber' (It doesn't have to have the quotes)
+
+3. 3 times 
+
+4. 'Friday'
+
+5. 'Thursday'
+
+6. a.
+
+7. No
+
+8. a. 
+
+9.
+country = "japan"
+
+10.
+my_name = "THEIR NAMES" (Their name should be in uppercase)
+
+
+Test Review
+
+1. Create a variable called city, thhen assign "Tokyo" to city. Then assign "Osaka" to city. What is the value of city?
+
+2 Create a variable called car, thhen assign "Ferrari to car. Then assign "Toyota to car. What is the value of car?
+
+3. Create a variable called computer then assign "Sony to computer. Then assign "Panasonic" to computer. What is the value value of computer?
+
+4.
+    >>> name = "Hosun"
+    >>> name = "Steve"
+    >>> name = "Salami"
+    >>> name = "Tope"
+
+    a. What is value of name?
+    b. How many times have we changed the value assigned to name?
+
+5. 
+    >>> year = "2017"
+    >>> year = "2018"
+    >>> year = "2019"
+
+    a. Whhat is thhe value of year?
+    b. How many times have we change the value assigned to year?
+
+6. >>> Home = "Chiba"
+   >>> home = "Saitama"
+
+   a. What is the value of Home?
+   b. What is the value of home?
+
+7. 
+    >>> My_favorite_place = "Ikebukuro"
+    >>> My_favorite_place = "Ueno"
+    >>> my_favorite_place = "Shibuya"
+
+    What is the value of my_favorite_place?
+
+
+8. Which of these is illegal for a variable name?
+    12month = "December"
+    month12 = "December"
+
+
+9. Which of these is illegal for a variable name?
+    a. 2age = 17
+    b. age2 = 17
+
+
+10. Which of these is a legal variable nane?
+    a. iLoveYen = True
+    b. iLove¥ = True 
+
+11 Which of these is more meaningful as a variable namme?
+
+    a. shoe = "Nike"
+    b. place = "Nike"
+
+12. Which of these is a legal variable name?
+    a. iLove$ = True
+    b. iLoveDollars = True
+
+
+
+13. Which of these is more meaningful for a variable name?
+    a. address = "2 Higashi Ikebukuro"
+    b. food = "2 Higashi Ikebukuro"
+
+14. Create variable called school. Assign the name of your school to school. The value of school should be in lowercase 
+
+15. Create a variable called my_hero. Assign the name of your hero to my_hero. The value of my_hero should be in uppercase. 
+
+ 
+
 2.4 Statements
 
 Steve will go through the following with the Students. 
@@ -576,6 +760,7 @@ We have only seen the assignment statement so far.
 Some other kinds of statements that we’ll see shortly are while statements, for statements, if statements, and import statements. 
 (There are other kinds too!)
 When you type a statement on the command line, Python executes it. Statements don’t produce any result.
+
 
 2.5 Evaluating expressions
 Type the following in your interpreter: 
@@ -656,5 +841,7 @@ Subtraction
  Create a variable called message
  message - 1 
 
-How to practice reading documentation.
+ 
 
+
+len 
