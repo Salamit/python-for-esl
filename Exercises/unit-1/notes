@@ -113,8 +113,6 @@ Type "hello" and Tell me the result.  Make notes of when you see the quotation m
 Type cheese without the quotation marks. Tell me the error 
 Type the statement 6 + 4 * 9 at the Python prompt and hit enter. Is this a floating point number or integer?
 
-
-
 Day 4
 Learning points
 Review
@@ -162,30 +160,30 @@ Test questions
 
 
 Day 5
-Review 
-integer
+
+English vocabulary
+classified
+manipulate 
+angle  
+
+Terms and concepts
+
+integer: 4 is an integer, and "Hello, World!" is a string
 string
-value
-classified 
-class 
-datatypes 
-manipulate
-angle 
+value: 
+These values are classified into different classes, or datatypes. A value is one of the fundamental things — like a letter or a number — that a program manipulates
+class or datatypes 
+single quotes
+double quotes
+triple single quotes
+triple double quotes
+Strings in Python can be enclosed in either single quotes (') or double quotes ("), 
+or three of each (''' or """)
+Triple quoted strings can even span multiple lines
+enclosing quotes in quotes. 
+type() function: If you are not sure what class a value falls into, Python has a function called type which can tell you.
 
-Type "Hello" + "Salami Sausage"
-Concatentate the following: "What" "is" "your" "problem?"
-
-Terms 
-value 
-A value is one of the fundamental things — like a letter or a number — that a program manipulates
-
-These values are classified into different classes, or datatypes: 
-4 is an integer, and "Hello, World!" is a string
-
-If you are not sure what class a value falls into, 
-Python has a function called type which can tell you.
-
-angle bracket. 
+Exercises
 
 Type the following in your python intepreter and tell me what you see: type("Hello, World!")
 
@@ -197,19 +195,27 @@ Type the following in your python intepreter and tell me what you see: type("17"
 
 Type the following in your python intepreter and tell me what you see: type("3.2")
 
-On the board
-Strings in Python can be enclosed in either single quotes (') or double quotes ("), 
-or three of each (''' or """)
+What is this '
 
-Convert their code to python scripts
+What is this ' '
 
+What is this "
 
-Day 6
+What is this " "
 
-Warm up
-Speaking on the phone - following up on the bug
-vocabulary - App, Component, Computer, Data, Database
-Python exercises 
+What is this ''' '''
+
+What is this """ """
+
+Use your python interpreter to find out what data type this is:  'This is a string'
+
+Use your python interpreter to find out what data type this is:  "And so is this."
+
+Use your python interpreter to find out what data type this is: """and this."""
+
+Use your python interpreter to find out what data type this is:  '''and even this...'''
+
+print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
 
 
 Day 7
@@ -229,15 +235,8 @@ Board data types/classes:
 integer 
 string 
 
-float 
-single quotes ('), double quotes (") 
-triple quoted strings. ''' 
-triple double quotation """
 = assignment token
 
-
-Exercises
-If you are not sure what class a value falls into, Python has a function called type which can tell you.
 
 They will do these running dictation style
 print("Bruce's beard")
@@ -253,9 +252,6 @@ and assignment token
 Write and raise the flag. 
 Review single quote, double quotes, triple single quote, triple double quotation 
 
-Strings 
-
-Strings in Python can be enclosed in either single quotes (') or double quotes ("), or three of each (''' or """)
 
 Day 10: Students will understand the concepts of variable, assignment token, assignment statement, value
 Variables, Assignment token 
@@ -677,7 +673,7 @@ country = "japan"
 my_name = "THEIR NAMES" (Their name should be in uppercase)
 
 
-Test Review
+Pre-Test Review
 
 1. Create a variable called city, thhen assign "Tokyo" to city. Then assign "Osaka" to city. What is the value of city?
 
@@ -750,45 +746,47 @@ Test Review
 15. Create a variable called my_hero. Assign the name of your hero to my_hero. The value of my_hero should be in uppercase. 
 
  
+Next class
+
+For the 1st and 2nd classes on Dec 4th, could you cover the reading on pages 15, 16 and 17. 
+
+Specifically: 
 
 2.4 Statements
+2.5 Evaluation
+2.6 Operators and operands
+2.7 Type converter functions
+2.8 Order of operations
 
-Steve will go through the following with the Students. 
-Dictation and board 
-A statement is an instruction that the Python interpreter can execute. 
-We have only seen the assignment statement so far. 
-Some other kinds of statements that we’ll see shortly are while statements, for statements, if statements, and import statements. 
-(There are other kinds too!)
-When you type a statement on the command line, Python executes it. Statements don’t produce any result.
+Terms 
+Statement
+expression
+operands
+Operators and tokens: 
+addition vs plus                +
+multiplication vs muliplied by  *
+division vs divided by          /
+Subtraction vs minus           -
+exponentiation vs to the power **
+
+brackets/paranthesis.
 
 
-2.5 Evaluating expressions
-Type the following in your interpreter: 
->>> 1 + 1
-2
->>> len("hello")
-5 
-In this example len is a built-in Python function that returns the number of characters in a string.
-
-An expression is a combination of values, variables, operators, and calls to functions. 
-If you type an expression at the Python prompt, the interpreter evaluates it and displays the result.
-
-Type the following in your interpreter:
->>> 17
-#17
->>> y = 3.14
->>> x = len("hello") 
->>> x
- 5
->>> y 
-3.14
+floor division operator vs division operator    //
+front slash 
+back slash 
 
 
 
 
-R
+
+
+
 * = multiplication token
 ** = exponentiation token
+
+Using python's len function find teh length of the word "College".
+Using python's len funciton, find the length of the word "Ikebukuro"
 
 Create a variable called minutes. Assign the value 645 to minutes. 
 Divide minutes by 60 and assign the result to a new variable called hours. 
