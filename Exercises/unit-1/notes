@@ -325,6 +325,9 @@ The assignment statement gives a value to a variable
 
 This statement assigns the string value "What's is your problem?" to a variable named message.
 
+Class 3: Do the variable exercises from scratch
+
+
 
 
 
@@ -898,12 +901,15 @@ Print hours to the screen.
 //get questions for next class ready
 
 
-Kaito's team will start from number 5 
-toma's team will start from number 3
-Other teams will start from number 2
-Rino start from exercise 1
+Kaito's team will start from number 11 
+toma/che/hosun's team will start from number 6
+Other teams will start from number 5
+Takeshi/Ryo number 5
+Ryuta/Ryuuchi number 5 
+Rino start from exercise 6
 
-Class 2: Yuya and Senya will start from number 7, others start from number 5
+Class 2: Senyen 13, what's your problem 9, akira and takumi: 10, Yuki and Kosuke: 7; Ryusei & natsumi: 7; Takumi, Yuki, takumi: 10;
+nagashima: 7
 
 
 
@@ -925,14 +931,15 @@ string => float
 string => int 
 
 1. convert the following to integers
-int(3.14)
-int(3.9999)
-int(3.0)
-int(-3.999)
-int("2345") 
-int("23 bottles")
+3.14
+3.9999
+3.0
+-3.999
+"2345" 
+"23 bottles"
 
-2. convert the follwoing to integers
+
+2. convert the following to integers
  3.8
  6.9999
  4.0
@@ -940,26 +947,50 @@ int("23 bottles")
  "889"
   "5 cars"
 
-3. In this expression, we are converting from what datatype to what datatype? 
+3. convert the following to floats
+ "3.8"
+ "6.9999"
+ 4
+
+4. convert the following to floats
+ "-2.984"
+ "889"
+  "5 cars"
+
+5. convert the following to strings
+ 3.8
+ 6.9999
+ 4
+
+5. convert the following to strings
+ -2.984
+ 889
+  5
+
+6. In this expression, we are converting from what datatype to what datatype? 
 float(15)
 str(14.5)
 int(19.3)
 
-4. In this expression, we are converting from what datatype to what datatype? 
+7. In this expression, we are converting from what datatype to what datatype? 
 float("15.23")
 str(1564)
 int("893")
 
 
 
-We are converting from what type to what type in this expression?
+8. We are converting from what type to what type in this expression?
 float(17)
 
 float("123.45")
 
+9.  We are converting from what type to what type in this expression?
 str(17)
 
 str(123.45)
+
+
+
 
 Order of operations
 What is the answer of this: (1+1)**(5-2) #8
@@ -985,6 +1016,9 @@ Subtraction
  Create a variable called message
  message - 1 
 
+Reading Documentation
+Converting expressions they see into instructions which they give to their partners who 
+should then construct the expressions. 
  
 
 
