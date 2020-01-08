@@ -883,7 +883,7 @@ b. Create a variable called hour. In 'hour' save teh value 60. Subtract 1 from h
 
 17. Evaluate the following expression in your python interpreter. (five plus nine ) times (15 minus 7)
 
-18. Evaluate the follwing expression (1 plus 1) raised to the power ( 5 minus 2)
+18. Evaluate the following expression (1 plus 1) raised to the power ( 5 minus 2)
 
 Additional Exercises
 * = multiplication token
@@ -901,15 +901,16 @@ Print hours to the screen.
 //get questions for next class ready
 
 
-Kaito's team will start from number 11 
-toma/che/hosun's team will start from number 6
-Other teams will start from number 5
-Takeshi/Ryo number 5
-Ryuta/Ryuuchi number 5 
-Rino start from exercise 6
+kaito & hiroyuki:18
+toma & fuga: 9
+Rino & Mika: 8
+Hosun & Che: 8
+Tetsu & Ryota: 8
+Ryo & : 7
+Tskeshi & Ryuichi: 7
 
-Class 2: Senyen 13, what's your problem 9, akira and takumi: 10, Yuki and Kosuke: 7; Ryusei & natsumi: 7; Takumi, Yuki, takumi: 10;
-nagashima: 7
+
+Class 2: Do type conversion exercises
 
 
 
@@ -1010,11 +1011,9 @@ Subtraction
  
  Operators with the same precedence are evaluated from left-to-right
  6-3+2, 
- 
- Operations on strings
- In general, you cannot perform mathematical operations on strings, even if the strings look like numbers.
- Create a variable called message
- message - 1 
+
+Using input
+Get
 
 Reading Documentation
 Converting expressions they see into instructions which they give to their partners who 
