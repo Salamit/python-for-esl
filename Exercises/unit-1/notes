@@ -325,7 +325,7 @@ The assignment statement gives a value to a variable
 
 This statement assigns the string value "What's is your problem?" to a variable named message.
 
-Class 3: Do the variable exercises from scratch
+
 
 
 
@@ -799,6 +799,9 @@ For the 1st and 2nd classes on Dec 4th, could you cover the reading on pages 15,
 
 Specifically: 
 
+Class 3: Do the operator exercises
+
+
 2.4 Statements
 2.5 Evaluation
 2.6 Operators and operands
@@ -901,16 +904,17 @@ Print hours to the screen.
 //get questions for next class ready
 
 
-kaito & hiroyuki:18
-toma & fuga: 9
-Rino & Mika: 8
-Hosun & Che: 8
-Tetsu & Ryota: 8
-Ryo & : 7
-Tskeshi & Ryuichi: 7
+kaito & hiroyuki: conversion operations: 2,3,4,5,6
+toma & fuga: 16
+Rino & Mika: 12
+Hosun & Che, yugi: 12
+Tetsu & Ryota: 12
+Ryo & : 10
+Taskeshi & Ryuichi: 7
+
+Extra exercises for those who finish first. 
 
 
-Class 2: Do type conversion exercises
 
 
 
@@ -963,46 +967,54 @@ string => int
  6.9999
  4
 
-5. convert the following to strings
+6. convert the following to strings
  -2.984
  889
   5
 
-6. In this expression, we are converting from what datatype to what datatype? 
+7. In these expressions, we are converting from what datatype to what datatype? 
 float(15)
 str(14.5)
 int(19.3)
 
-7. In this expression, we are converting from what datatype to what datatype? 
+8. In this expression, we are converting from what datatype to what datatype? 
 float("15.23")
 str(1564)
 int("893")
 
 
 
-8. We are converting from what type to what type in this expression?
+9. We are converting from what type to what type in this expression?
 float(17)
 
 float("123.45")
 
-9.  We are converting from what type to what type in this expression?
+10.  We are converting from what type to what type in this expression?
 str(17)
 
 str(123.45)
 
 
-
+Explain that asterix is * and Parentheses
+Practice pronouncing these words above and Exponentiation and precedence
 
 Order of operations
-What is the answer of this: (1+1)**(5-2) #8
-and this 
-2 * (3-1) #4
 
 Parentheses have the highest precedence
+What is the answer of this: (1+1)**(5-2) #8
+1. open bracket one plus one close bracket asterix asterix open bracket five minus two close bracket
 
-2**1+1 
-3*1**3 
+2. Two multiplied by open bracket three minus one close bracket
+# 2 * (3-1) #4
+
+
 Exponentiation has the next highest precedence
+
+3. What is the result of the following: two double asterix asterix one plus one
+# 2**1+1 
+4 What is the result of the following: 3 times one raised to the power three 
+#3*1**3 
+
 
 Multiplication and both Division operators have the same precedence, which is higher than Addition and
 Subtraction
@@ -1010,10 +1022,44 @@ Subtraction
  5-2*2 
  
  Operators with the same precedence are evaluated from left-to-right
- 6-3+2, 
+ 6-3+2
 
-Using input
-Get
+Operators are usaually evaluated left-to-right. However an exception to the left-to-right 
+left-associative rule is the exponentiation operator
+
+5. 3 *** 2 ** 3: three to the power two raised to the power three.
+
+6. (3 ** 2) ** 3: Open bracket three double asterix two close bracket raised to the power three
+
+Class 2: Making their first program
+
+Make their first program.(In pairs students will make this program.)
+Put the instructions on different strips of paper and paste them around the classroom, numbering
+each strip of paper. Students will walk around and find the strips of paper in order and 
+read the instruction to their partners. Their partners will write. Once they are done,
+students will change and the next student (the student who was sitting down) will look for the next
+quesiton in order and read it to their partner. Students will repeat the steps until they have
+written all the instructions to the program. 
+
+Program 1
+Open your text editor
+Type the following text into a single file named ex1.py
+1 print("Hello World!")
+2 print("Hello Again")
+3 print("I like typing this.")
+4 print("This is fun.")
+5 print('Yay! Printing.')
+6 print("I'd much rather you 'not'.")
+7 print('I "said" do not touch this.')
+
+
+On Windows, type python instead of python3.6 like this: python ex1.py
+
+
+
+
+Open up 
+
 
 Reading Documentation
 Converting expressions they see into instructions which they give to their partners who 
