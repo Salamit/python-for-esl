@@ -369,7 +369,7 @@ What is the assignment statement? The assignment statement is ...
 What is the value given to the variable? The value given to the variable is... 
 
 (Dictation to each other)
-START HERE WITH CLASS 1. A teammate steps out, and comes back in. They read the instructions to their teammate
+ A teammate steps out, and comes back in. They read the instructions to their teammate
 
 pi = 3.14159
 What is the variable name? 
@@ -606,6 +606,8 @@ Execerpt: How to Think Like a Computer Scientist: Learning with Python 3 Documen
 Show the reading. Go through it with class. Ask students to underline words they don't understand. 
 Rules for making variable names
 
+Class 3: underscore, meaningful variable names, then do operator exercises
+
 Variable names and keywords
 introduce: 
 underscore
@@ -621,7 +623,6 @@ Create a variable called Teacher, assign "Handsome Steve" to teacher.
 Create a variable called teacher. Save
 "Ugly Salami" to teacher. Ask the interpreter to evaluate the variables. What are the results?
 
-Start here with class 1 Nov 13th 
 Create a variable called my_name. Save your name to my_name. 
 
 Create a variable called price_of_tea_in_china. Save "20 Yen" to price_of_tea_in_china.
@@ -722,7 +723,7 @@ my_name = "THEIR NAMES" (Their name should be in uppercase)
 
 Pre-Test Review
 
-1. Create a variable called city, thhen assign "Tokyo" to city. Then assign "Osaka" to city. What is the value of city?
+1. Create a variable called city, then assign "Tokyo" to city. Then assign "Osaka" to city. What is the value of city?
 
 2 Create a variable called car, thhen assign "Ferrari to car. Then assign "Toyota to car. What is the value of car?
 
@@ -742,7 +743,7 @@ Pre-Test Review
     >>> year = "2018"
     >>> year = "2019"
 
-    a. Whhat is thhe value of year?
+    a. What is thhe value of year?
     b. How many times have we change the value assigned to year?
 
 6. >>> Home = "Chiba"
@@ -903,14 +904,14 @@ Print hours to the screen.
 //Change the exercises to so operators are spelled out vs the tokens written out. 
 //get questions for next class ready
 
+Class 1
+kaito & hiroyuki: finished type converter functions exercises
+kaito & fuga: type converter: 1
+Rino & Minori: 17
+Hosun & Che, toma: 18
+Tetsu & Ryota: 18
+Ryo & Ryuichi: 16
 
-kaito & hiroyuki: conversion operations: 2,3,4,5,6
-toma & fuga: 16
-Rino & Mika: 12
-Hosun & Che, yugi: 12
-Tetsu & Ryota: 12
-Ryo & : 10
-Taskeshi & Ryuichi: 7
 
 Extra exercises for those who finish first. 
 
@@ -1027,17 +1028,21 @@ Subtraction
 Operators are usaually evaluated left-to-right. However an exception to the left-to-right 
 left-associative rule is the exponentiation operator
 
-5. 3 *** 2 ** 3: three to the power two raised to the power three.
+5. 3 ** 2 ** 3: three to the power two raised to the power three.
 
 6. (3 ** 2) ** 3: Open bracket three double asterix two close bracket raised to the power three
 
-Class 2: Making their first program
+
+Class 2:
+
+
+Making their first program
 
 Make their first program.(In pairs students will make this program.)
 Put the instructions on different strips of paper and paste them around the classroom, numbering
 each strip of paper. Students will walk around and find the strips of paper in order and 
-read the instruction to their partners. Their partners will write. Once they are done,
-students will change and the next student (the student who was sitting down) will look for the next
+read the instruction to their partners. Their partners will write. Once a student is done reading,
+they will switch places and the next student (the student who was sitting down) will look for the next
 quesiton in order and read it to their partner. Students will repeat the steps until they have
 written all the instructions to the program. 
 
@@ -1051,6 +1056,41 @@ Type the following text into a single file named ex1.py
 5 print('Yay! Printing.')
 6 print("I'd much rather you 'not'.")
 7 print('I "said" do not touch this.')
+
+Using Input, composition, operators on strings
+
+Input section.
+
+Model: Using python's input function, ask a user for their teacher's name. Save the value to a variable called
+teacher. Then print teacher. Your teacher's name is: 
+
+
+1. Create a program called input2. Using python's input function, ask a user for their name. Save the value to a variable called name. 
+Then print: Your name is: 
+
+2. Create a program called input3. Using python's input function, ask a user for their age. Save the value to a variable called age. Using 
+python's type() function, find out what data type age is. Print the data type to the screen. 
+
+Composition section:
+
+3. Create a program called input4. Using python's input function, ask a user for a float number. 
+Save the result in a variable called float_number. 
+Using python's type converter function, convert float_number to an integer. Save the result to a variable called
+integer_number. Then print the integer_number 
+
+4. Ask a user for a number. Save the value to a variable. Convert the number to a string and then print the 
+value. 
+
+Operators on strings:
+
+5. Ask a user for their first name. Ask a user for their phone number. Print the user's name and phone number
+as follows: 'Your name is ______  and your phone number is ________' 
+
+6. Ask a user for their school name then ask a user for thheir school location. 
+
+Create a program. Using Python's input 
+
+
 
 
 On Windows, type python instead of python3.6 like this: python ex1.py
