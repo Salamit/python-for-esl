@@ -800,7 +800,13 @@ For the 1st and 2nd classes on Dec 4th, could you cover the reading on pages 15,
 
 Specifically: 
 
-Class 3: Do the operator exercises
+Class 3: Yaho and yamato 11b
+Wakana & hayata 10
+Shota & Tsubasa: 7
+Nagi & Ryota: 7
+Mizuho & Masato: 11a
+Marin, Nanami: 5
+
 
 
 2.4 Statements
@@ -833,6 +839,7 @@ Exercises.
 Put students in pairs put questions on pieces of paper and tape the questions to the walls around the class
 It will be a like a treasure hunt. Put team names on the board. Award a point to each team for every question they get correct.  
 
+
 1. In your python intepreter, type the following expressions:
 
  a 4 multiplied by 4
@@ -848,6 +855,7 @@ It will be a like a treasure hunt. Put team names on the board. Award a point to
  d. 6 plus 3 times 3
  What are the results?
 
+
  3. In your python intepreter, type the following expressions:
 a. len("Steve"). What is the result?
 b. y = len("Tokyo"). What is the value of y?
@@ -858,9 +866,9 @@ b. len("College"). What is the result?
 
 5. Find:
 a. 20 plus 32
-b. Create a variable called hour. In 'hour' save teh value 60. Subtract 1 from hour. What is the result. 
+b. Create a variable called hour. In 'hour' save the value 60. Subtract 1 from hour. What is the result. 
 
-6. Create a variable called hour. Save 1 to hoiur. Then create a variable called minute. Save 3 to minute. 
+6. Create a variable called hour. Save 1 to hour. Then create a variable called minute. Save 3 to minute. 
     Multiply hour by 60 and then add minute to the result. What is the result?
 
 7. In your python interpreter, create a varibale called minutes, save the value 360 to minutes. Divide minutes by 60. 
@@ -893,8 +901,8 @@ Additional Exercises
 * = multiplication token
 ** = exponentiation token
 
-Using python's len function find teh length of the word "College".
-Using python's len funciton, find the length of the word "Ikebukuro"
+Using python's len function find the length of the word "College".
+Using python's len function, find the length of the word "Ikebukuro"
 
 Create a variable called minutes. Assign the value 645 to minutes. 
 Divide minutes by 60 and assign the result to a new variable called hours. 
@@ -1031,6 +1039,179 @@ left-associative rule is the exponentiation operator
 5. 3 ** 2 ** 3: three to the power two raised to the power three.
 
 6. (3 ** 2) ** 3: Open bracket three double asterix two close bracket raised to the power three
+
+Test Questions:
+
+ 1. What are the names of these operators
+    a. + 
+    b. - 
+    c. *
+    d. ** 
+    e. /
+    f. //
+
+
+2. Fill in the blank
+    a. 2 _________ 2 = 4  (hint: 2 + 2 = 4)
+    b. 2 _________ 2 = 0  (hint: 2 - 2 = 0)
+    c. 3 _________ 3 = 9  (hint: 3 * 3 = 9)
+    d. 3 _________ 3 = 9  (hint: 3 ** 3 = 9)
+    e. 3 _________ 3 = 1  (hint: 3 / 3 = 9)
+    f. 3 _________ 3 = 0  (hint: 3 // 3 = 9)
+
+3. What is the value y in this expresssion: y = len("Tokyo")
+
+4. Create a variable called year. Save 2019 to year. Add one to year. What is the result? 
+   >>
+   >>
+   >>
+   >>
+   >>
+
+5. Create a variable called age. Save 17 to age. Subtract one from age. What is the result?
+   >>
+   >>
+   >>
+   >>
+   >>
+
+6. Create a variable called 'numberz'. Save 3 to number. Multiply 'number' by 1. What is the result? 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+7. Create a variable called 'number'. Save 8 to number. Divide 'number' by 2. What is the result? 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+8. Create a variable called 'number'. Save 3 to number. Raise number by the power 1. What is the result? 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+9. Convert 3.999 to an int. 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+10. Convert "3" to a float.
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+11. Convert 3 to a string. 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+12. Create a variable called minutes. Assign the value 300 to minutes. 
+Divide minutes by 60 and assign the result to a new variable called hours. 
+Print hours to the screen. 
+   >> 
+   >> 
+   >> 
+   >>
+   >>
+
+
+
+Answers
+1. 
+    a. Addition operator
+    b. Subtraction operator
+    c. Multiplication operator
+    d. Exponentiation operator
+    e. Division operator
+    f. Floor Division operator 
+
+2. 
+    a. plus
+    b. minus
+    c. times/multiplied by (either of these is fine)
+    d. raised to the power/to the power
+    e. divided by/front slash
+    f. double front slash
+
+3. 5
+
+4. Create a variable called 'year'. Save 2019 to 'year'. Add one to 'year'. What is the result? (If they have the first two lines below, please give them the point.)
+   >> year = 2019
+   >> year + 1
+   >> 
+   >>
+   >>
+
+5. Create a variable called 'age'. Save 17 to age. Subtract one from 'age'. What is the result? (If they have the first two lines below, please give them the point.)
+   >> age = 17
+   >> age - 1
+   >>
+   >>
+   >>
+
+6. Create a variable called 'numberz'. Save 3 to number. Multiply 'number' by 1. What is the result? (If they have the first two lines below, please give them the point.)
+   >> number = 3
+   >> number * 1
+   >> 
+   >>
+   >>
+
+7. Create a variable called 'number'. Save 8 to number. Divide 'number' by 2. What is the result? (If they have the first two lines below, please give them the point.)
+   >> number = 8
+   >> number/2
+   >> 
+   >>
+   >>
+
+8. Create a variable called 'number'. Save 3 to number. Raise number by the power 1. What is the result? (If they have the first two lines below, please give them the point.)
+   >> number = 3
+   >> number ** 1
+   >> 
+   >>
+   >>
+
+9. Convert 3.999 to an int. 
+   >> int(3.999)
+   >> 
+   >> 
+   >>
+   >>
+
+10. Convert "3" to a float.
+   >> float("3")
+   >> 
+   >> 
+   >>
+   >>
+
+11. Convert 3 to a string. 
+   >> str(3)
+   >> 
+   >> 
+   >>
+   >> 
+
+12. Create a variable called minutes. Assign the value 300 to minutes. 
+Divide minutes by 60 and assign the result to a new variable called hours. 
+Print hours to the screen. 
+   >> minutes = 300
+   >> hours = minutes/60
+   >> print(hours) OR hours
+   >>
+   >>
+
 
 
 Class 2:
