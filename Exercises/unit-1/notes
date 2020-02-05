@@ -1042,7 +1042,7 @@ left-associative rule is the exponentiation operator
 
 Test Questions:
 
- 1. What are the names of these operators
+ 1. What are the names of these operators. Show your results below
     a. + 
     b. - 
     c. *
@@ -1059,58 +1059,59 @@ Test Questions:
     e. 3 _________ 3 = 1  (hint: 3 / 3 = 9)
     f. 3 _________ 3 = 0  (hint: 3 // 3 = 9)
 
-3. What is the value y in this expresssion: y = len("Tokyo")
+3. What is the value y in this expresssion: y = len("Tokyo") Show your results below
 
-4. Create a variable called year. Save 2019 to year. Add one to year. What is the result? 
-   >>
-   >>
-   >>
-   >>
-   >>
-
-5. Create a variable called age. Save 17 to age. Subtract one from age. What is the result?
+4. Create a variable called year. Save 2019 to year. Add one to year. What is the result? Show your results below
    >>
    >>
    >>
    >>
    >>
 
-6. Create a variable called 'numberz'. Save 3 to number. Multiply 'number' by 1. What is the result? 
+5. Create a variable called age. Save 17 to age. Subtract one from age. What is the result? Show your results below
+   >>
+   
+   >>
+   >>
+   >>
+   >>
+
+6. Create a variable called 'number'. Save 3 to number. Multiply 'number' by 1. What is the result? Show your results below
    >> 
    >> 
    >> 
    >>
    >>
 
-7. Create a variable called 'number'. Save 8 to number. Divide 'number' by 2. What is the result? 
+7. Create a variable called 'number'. Save 8 to number. Divide 'number' by 2. What is the result? Show your results below
    >> 
    >> 
    >> 
    >>
    >>
 
-8. Create a variable called 'number'. Save 3 to number. Raise number by the power 1. What is the result? 
+8. Create a variable called 'number'. Save 3 to number. Raise number by the power 1. What is the result? Show your results below
    >> 
    >> 
    >> 
    >>
    >>
 
-9. Convert 3.999 to an int. 
+9. Convert 3.999 to an int. Show your results below
    >> 
    >> 
    >> 
    >>
    >>
 
-10. Convert "3" to a float.
+10. Convert "3" to a float. Show your results below
    >> 
    >> 
    >> 
    >>
    >>
 
-11. Convert 3 to a string. 
+11. Convert 3 to a string. Show your results below
    >> 
    >> 
    >> 
@@ -1119,7 +1120,7 @@ Test Questions:
 
 12. Create a variable called minutes. Assign the value 300 to minutes. 
 Divide minutes by 60 and assign the result to a new variable called hours. 
-Print hours to the screen. 
+Print hours to the screen. Show your results below
    >> 
    >> 
    >> 
@@ -1147,7 +1148,8 @@ Answers
 
 3. 5
 
-4. Create a variable called 'year'. Save 2019 to 'year'. Add one to 'year'. What is the result? (If they have the first two lines below, please give them the point.)
+4. Create a variable called 'year'. Save 2019 to 'year'. Add one to 'year'. What is the result? (If they have the first two lines below, please give them the point.) 
+Show your results below
    >> year = 2019
    >> year + 1
    >> 
@@ -1155,6 +1157,7 @@ Answers
    >>
 
 5. Create a variable called 'age'. Save 17 to age. Subtract one from 'age'. What is the result? (If they have the first two lines below, please give them the point.)
+Show your results below
    >> age = 17
    >> age - 1
    >>
@@ -1162,6 +1165,7 @@ Answers
    >>
 
 6. Create a variable called 'numberz'. Save 3 to number. Multiply 'number' by 1. What is the result? (If they have the first two lines below, please give them the point.)
+Show your results below
    >> number = 3
    >> number * 1
    >> 
@@ -1169,6 +1173,7 @@ Answers
    >>
 
 7. Create a variable called 'number'. Save 8 to number. Divide 'number' by 2. What is the result? (If they have the first two lines below, please give them the point.)
+Show your results below
    >> number = 8
    >> number/2
    >> 
@@ -1176,27 +1181,28 @@ Answers
    >>
 
 8. Create a variable called 'number'. Save 3 to number. Raise number by the power 1. What is the result? (If they have the first two lines below, please give them the point.)
+Show your results below
    >> number = 3
    >> number ** 1
    >> 
    >>
    >>
 
-9. Convert 3.999 to an int. 
+9. Convert 3.999 to an int. Show your results below 
    >> int(3.999)
    >> 
    >> 
    >>
    >>
 
-10. Convert "3" to a float.
+10. Convert "3" to a float. Show your results below
    >> float("3")
    >> 
    >> 
    >>
    >>
 
-11. Convert 3 to a string. 
+11. Convert 3 to a string. Show your results below 
    >> str(3)
    >> 
    >> 
@@ -1205,7 +1211,7 @@ Answers
 
 12. Create a variable called minutes. Assign the value 300 to minutes. 
 Divide minutes by 60 and assign the result to a new variable called hours. 
-Print hours to the screen. 
+Print hours to the screen. Show your results below
    >> minutes = 300
    >> hours = minutes/60
    >> print(hours) OR hours
