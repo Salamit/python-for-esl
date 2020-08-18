@@ -28,75 +28,391 @@ Use Python for those in the developer stream
 Use Scratch for those in the non developer stream
 
 
-Day 2
 
-Learning points
 
-Print
-demonstrate: print("Hello world!") 
 
-and 
 
-Comments
 
-what's up
-who likes Java? Who like's python?
-Go over the voabulary pth
+Programming Skills
 
-The single most important skill for a computer scientist is problem solving. 
-Problem solving means the ability to formulate problems, think creatively about solutions, 
-and express a solution clearly and accurately.
+In a sense, you need two skills to be a programmer:
+
+First, you need to know the programming language (Python) - 
+you need to know the vocabulary and the grammar. 
+You need to be able to spell the words in this new language properly and 
+know how to construct well-formed "sentences" in this new language.
+
+Second, you need to "tell a story". In writing a story, you combine words and sentences 
+to convey an idea to the reader. There is a skill and art in constructing the story, 
+and skill in story writing is improved by doing some writing and getting some feedback. 
+In programming, our program is the "story" and the problem you are trying to solve is the "idea".
+
+You will learn the "vocabulary" and "sentences" of Python pretty quickly. 
+Once you learn one programming language such as Python, you will find it much easier 
+to learn a second programming language such as JavaScript or C++. The new programming language has very different vocabulary and grammar but the problem-solving skills 
+will be the same across all programming languages.
+
+
+Show the diagram
+
+Writing programs (or programming) is a very creative and rewarding activity. 
+You can write programs for many reasons, ranging from making your living to solving a 
+difficult data analysis problem to having fun to helping someone else solve a problem.
+
+Our computers are fast and have vast amounts of memory and could be very helpful to us if we only knew the 
+language to speak to explain to the computer what we would like it to "do next". 
+If we knew this language, we could tell the computer to do tasks on our behalf that were repetitive. 
+Interestingly, the kinds of things computers can do best are often the kinds of things 
+that we humans find boring and mind-numbing.
+
+This very fact that computers are good at things that humans are not is why you need to become 
+skilled at talking "computer language". Once you learn this new language, 
+you can delegate mundane tasks to your partner (the computer), 
+leaving more time for you to do the things that you are uniquely suited for. 
+You bring creativity, intuition, and inventiveness to this partnership.
+
+In this class, we will try to introduce you to the art of programming. 
+In the end you perhaps will not a professional programmer, but at least you will have some skills 
+to look at a data/information analysis problem and develop a program to solve the problem.
+
+
+
+
+Computer hardware architecture
+
+Before we start learning the language we speak to give instructions to computers to develop software, 
+we need to learn a small amount about how computers are built.
+
+central processing unit
+The Central Processing Unit (or CPU) is the part of the computer that is built to be obsessed with "what is next?" 
+If your computer is rated at 3.0 Gigahertz, it means that the CPU will ask "What next?" three billion times per second. 
+You are going to have to learn how to talk fast to keep up with the CPU.
+
+The main memory 
+The Main Memory is used to store information that the CPU needs in a hurry. 
+The main memory is nearly as fast as the CPU. But the information stored in the main memory vanishes when the computer is turned off.
+
+The secondary memory
+The Secondary Memory is also used to store information, but it is much slower than the main memory. 
+The advantage of the secondary memory is that it can store information even when there is no power to the computer. Examples of secondary memory are disk drives or flash memory (typically found in USB sticks and portable music players).
+
+The Input and Output Devices
+The Input and Output Devices are simply our screen, keyboard, mouse, microphone, speaker, touchpad, etc. 
+They are all of the ways we interact with the computer.
+
+As a programmer, your job is to use and orchestrate each of these resources 
+to solve the problem that you need to solve and analyze the data you get from the solution. 
+As a programmer you will mostly be "talking" to the CPU and telling it what to do next. 
+Sometimes you will tell the CPU to use the main memory, secondary memory, network, or the input/output devices.
+
+
+Terminology: interpreter and compiler
+
+Python is a high-level language intended to be relatively straightforward for humans to read and write and for computers to read and process. 
+Other high-level languages include Java, C++, PHP, Ruby, Basic, Perl, JavaScript, and many more. 
+The actual hardware inside the Central Processing Unit (CPU) does not understand any of these high-level languages.
+
+The CPU understands a language we call machine language. Machine language is very simple 
+and frankly very tiresome to write because it is represented all in zeros and ones:
+
+    001010001110100100101010000001111
+    11100110000011101010010101101101
+    ...
+
+Machine language seems quite simple on the surface, given that there are only zeros and ones, 
+but its syntax is even more complex and far more intricate than Python. 
+So very few programmers ever write machine language. 
+Instead we build various translators to allow programmers to write in high-level languages like Python or JavaScript and these translators 
+convert the programs to machine language for actual execution by the CPU.
+
+
+Words and sentences
+Unlike human languages, the Python vocabulary is actually pretty small. 
+We call this "vocabulary" the "reserved words". These are words that have very special meaning to Python.
+
+you will encounter three general types of errors:
+
+Syntax errors
+These are the first errors you will make and the easiest to fix. A syntax error means that you have violated the "grammar" rules of Python. Python does its best to point right at the line and character where it noticed it was confused. The only tricky bit of syntax errors is that sometimes the mistake that needs fixing is actually earlier in the program than where Python noticed it was confused. So the line and character that Python indicates in a syntax error may just be a starting point for your investigation.
+
+Logic errors
+A logic error is when your program has good syntax but there is a mistake in the order of the statements or perhaps a mistake in how the statements relate to one another. A good example of a logic error might be, "take a drink from your water bottle, put it in your backpack, walk to the library, and then put the top back on the bottle."
+
+Semantic errors
+A semantic error is when your description of the steps to take is syntactically perfect and in the right order, but there is simply a mistake in the program. The program is perfectly correct but it does not do what you intended for it to do. A simple example would be if you were giving a person directions to a restaurant and said, "...when you reach the intersection with the gas station, turn left and go one mile and the restaurant is a red building on your left." Your friend is very late and calls you to tell you that they are on a farm and walking around behind a barn, with no sign of a restaurant. Then you say "did you turn left or right at the gas station?" and they say, "I followed your directions perfectly, I have them written down, it says turn left and go one mile at the gas station." Then you say, "I am very sorry, because while my instructions were syntactically correct, they sadly contained a small but undetected semantic error.".
+
+Again in all three types of errors, Python is merely trying its hardest to do exactly what you have asked.
+
+
+
+
+
+Intro
 
 The programming language you will be learning is Python. 
-Python is an example of a high-level language; other high-level languages you might have heard of are 
-C++, PHP, Pascal, C#, and Java.
+Python is an example of a high-level language; 
+other high-level languages you might have heard of are C++, PHP, Pascal, C#, and Java.
 
-The engine that translates and runs Python is called the Python Interpreter. 
 
-here are two ways to use it: immediate mode and script mode. 
+The single most important skill for a computer scientist is problem solving. 
+Problem solving means the ability to formulate problems,
+think creatively about solutions, 
+and express a solution clearly and accurately.
 
-In immediate mode, 
+
+Goals
+Learn about the interpreter
+Script and immediate mode
+Printing
+Introduce them to Errors
+
+Conversing with Python
+
+A: Reads to B
+B: Writes on their shared whiteboard
+A & B Read and execute the command
+
+A. The engine that translates and runs Python is called the Python Interpreter. 
+
+B. There are two ways to use the python interpreter: immediate mode and script mode. 
+
+Review
+
+What is the name of the engine that runs python?
+
+What are the ways to use the python interpreter?
+
+A. In immediate mode,  
 you type Python expressions into the Python Interpreter window, 
 and the interpreter immediately shows the result:
 
-Let's open our python interpreter.
+B. Let's open our python interpreter in immediate mode. 
+
+A. Show them how to open command prompt
+Open up your command prompt and type "Python". Do you see the python prompt?
+
+Open up your python interpreter in Immediate mode then type: print('hello world').
+
+To quit immediate mode, type quit() at your Chevron prompt.
 
 
-The >>> is called the Python prompt.
 
-Alternatively, you can write a program in a file and use the interpreter to execute the contents of the file. 
+
+
+Script mode: Goal create a python script that prints hello world. 
+
+You can write a program in a file and use the interpreter to execute the contents of the file. 
+
 Such a file is called a script. Scripts have the advantage that they can be saved to disk, printed, and so on.
-Do you have Visual Code Studio
 
 
-open up their intepreter
 
-introduce print
-Review: Python Prompt
-Print hello world  
+1. Start your python interpreter in Immediate mode and print 'hello world' to the screen. 
+2. Quit your interpreter.
+
+Do you have Visual Code Studio?
 
 
-print()
-We use the print function to display. It displays a value on the screen. In this case, the result shown is
+We are going to create a Python file. 
+A python file is called a Python Script. 
+
+
+
+On your computer, create a folder called pythonEnglish.
+Open python in Visual Studio Code by doing the following
+1. Go to the Visual Studio Code menu
+
+
+Create a new file in Visual Studio Code by doing the following.
+1. Go to the Visual Studio Code menu
+2. Click on 'File'
+3. Click on 'New File'
+4. Save the file as 'hello.py'
+5. In hello.py, type the following: print('Hello World')
+Yay! You just created your first Python Script
+
+TEC 4: got up to here 05082020. Start here: 12082020 
+
+Running your hello.py Python script
+1. Go to the Visual Studio Code menu
+2. Click on 'File'
+3. Click on 'Open'
+4. Find your folder called 'pythonEnglish'
+5. Click on 'pythonEnglish'
+6. Click on 'Open'. 
+7.  Go to the Visual Studio Code menu
+8. Click on 'Terminal'
+9. Click on 'New Terminal'
+10. In the terminal type the following: python hello.py
+
+What do you see?
+
+You have just run your first Python Script.
+
+
+TEC 3: got up to here 05082020. Start here: 12082020 
+
+In pythonEnglish, create a python script called helloSteve.py
+In helloSteve.py, type the following: print('Hello Steve')
+Execute helloSteve.py
+
+1. In your python interpreter in Immediate mode
+ print the following: 
+"Are you single?"
+"Yes, I am"
+
+2. Create a python script called family.py. 
+The script prints the following:
+"Are you like your Dad or Mum?"
+"I am like my ____"
+
+
+Review: Create a python script called name.py
+The script prints the following:
+"What is your name?" 
+"My name is _____"
+Execute the program. 
+
+
 
 Words:
 NameError: - a type of run-time error
-* Multiplication
-** exponentiation operator
-#
+Syntax error
+Logic error
+Semantic error
+
+3. Create a python script called syntaxError1.py. 
+In the file, type the following: primt('I like Dolphin')
+
+How do we fix this syntax error?
+
+What are the types of errors?
+
+4. Create a python script called Error2.py
+In the file, type the following: You belong to me
+
+What type of error is this?
+
+How do we fix this syntax error?
+
+
+4. In your python interpreter in Immediate mode,  
+Type the following: I like chicken
+On your whiteboard, write what you see. 
+
+How do we fix this syntax error?
+
+
+
+Logic error: A logic error is when your program has good syntax but there is a mistake in the order of the statements or perhaps a mistake in how the statements relate to one another. 
+
+Type the following in a file called Error4.py
+print('My name is Satomi')
+print('What is your name?')
+Save the file then execute the file. 
+What type of error do you think this is?
+
+Start here with class 1
+
+How do we fix this logic error?
+
+print('Fuji san')
+print('What is the name of the mountain in Japan?')
+
+How do we fix this logic error?
+
+
+
+print('I live in Ikebukuro')
+print('Where do you live?')
+
+How do we fix this logic error?
+
+
+Semantic Error
+
+I want my result to be 6. Which of these is correct?
+
+3 + 1 * 2
+(3 + 1) * 2
+
+Semantic error is context dependent
+
+===========================================================================================================
+
+Midterm
+
+1. What programming language are you learning?
+
+2. What is the name of the engine that translates and runs Python?
+
+3. What are the two ways to use the Python Interpreter?
+
+4. In your command prompt, what command do you type to start the Python in Immediate mode?
+
+5. What is the name of this?: >>>
+
+6. How do you stop the Python in Immediate mode?
+
+7. Start Python in Immediate mode then type the following: print(“Hi Steve”).  What is the result?
+
+8. What are three types of errors in Python?
+
+9. What type of error is this?
+    >>> You belong to me
+
+10. How do you fix the following error?
+
+>>> primt ("Hello World!")
+    File "<stdin>", line 1
+    primt ("Hello World!")
+                        ^
+    SyntaxError: invalid syntax
+    >>>
+
+11. What type of error is this?
+    >>> print(“My name is Satomi”)
+    >>> print(“What is your name?”)
+
+12. How do you fix the following error?
+
+    >>> print("Mount Fuji")
+    >>> print("What is the name of a mountain in Japan?")
+
+
+13. Which of these is a Python file:
+    a. hello.c
+    b. hello.py
+
+14. What is the name of a Python file?
+
+15. I have a python file called family.py. What command do I type in the directory in which the file is located to run the file?
+
+===========================================================================================================
 
 Review
 print("What's up")
-print("I like banana.")
+print("The sky")
+print("funnny!!!")
 
-Introduce comment and # - Dictation. 
-1. print("I like banana.") #So do I 
-2. print("Hello, World!") # Isn't this easy!
+===========================================================================================================
+
 
 Creating a python script. 
-Give the text to read about comments for them to read. 
-A comment in a computer program is text that is intended only for the human reader — it is completely ignored by the interpreter.
+
 Also give the text about debugging and experiemental debugging to read. 
+
+
+Added exercises
+Exercises
+Start your command prompt. Get a paper and pen ready
+Type print("hello"). Python executes this, which has the effect of printing the letters h-e-l-l-o. Notice that the quotation marks that you used to enclose the string are not part of the output.
+Type "hello" and Tell me the result.  Make notes of when you see the quotation marks and when you don’t.
+Type cheese without the quotation marks. Tell me the error 
+Type the statement 6 + 4 * 9 at the Python prompt and hit enter. Is this a floating point number or integer?
+
+
+
 Day 3
 
 review: Print
@@ -106,12 +422,42 @@ integer
 floating points
 modulo
 
+
+What are the datatypes in Python? #string, integer, float. 
+Write an example of a string
+Write an example of an integer
+Write an example of a float
+
 Exercises
-Start your command prompt. Get a paper and pen ready
-Type print("hello"). Python executes this, which has the effect of printing the letters h-e-l-l-o. Notice that the quotation marks that you used to enclose the string are not part of the output.
-Type "hello" and Tell me the result.  Make notes of when you see the quotation marks and when you don’t.
-Type cheese without the quotation marks. Tell me the error 
-Type the statement 6 + 4 * 9 at the Python prompt and hit enter. Is this a floating point number or integer?
+Type a statement that prints all integer numbers between 1 and 10
+Type a statement that prints all the odd numbers between 1 and 10
+Type a statement that prints the floating point number 1.2
+
+Using the type function
+
+If you are not sure what type a value has, you can use the Python's type function to find out
+Open your python interpreter in immediate mode and type the following: type(3.2)
+What do you see?
+Open your python interpreter in immediate mode and type the following: type('Steve is handsome')
+What do you see?
+
+Type the following in python in immediate mode:type(9) What do you see?
+
+Variables
+
+Create a variable called city. Assign the name of your city to city.
+
+
+
+
+
+
+#Comments
+Give the text to read about comments for them to read. 
+A comment in a computer program is text that is intended only for the human reader — it is completely ignored by the interpreter.
+Introduce comment and # - Dictation. 
+1. print("I like banana.") #So do I 
+2. print("Hello, World!") # Isn't this easy!
 
 Day 4
 Learning points
@@ -119,9 +465,8 @@ Review
 concatenate
 Installing Visual Studio Code
 
-Type a statement that prints all integer numbers between 1 and 10
-Type a statement that prints all the odd numbers between 1 and 10 
-Type a statement that prints the floating point number 1.2
+ 
+
 Find 5 modulo 3. Can you tell me the result?
 Find 4 modulo 2. What shows up on the screen?
 Find 10 modulo 3. Please tell me the result

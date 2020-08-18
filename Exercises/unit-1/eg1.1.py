@@ -1,5 +1,5 @@
 
-print("How is it going?")
+print("Hello world!")
 
 # This demo program shows off how elegant Python is
 # Written by Joe Soap, December 2010
